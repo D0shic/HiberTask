@@ -10,6 +10,8 @@ public class Main {
         // реализуйте алгоритм здесь
 
         UserServiceImpl userTest = new UserServiceImpl();
+
+
         userTest.createUsersTable();
 
         userTest.saveUser("Oleg", "Kladovoy", (byte)45);
